@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ajinkya_rust_EFWithLinq_1717423527113-pr-trigger-input-set
+  identifier: Build_Ajinkya_rust_EFWithLinq_1717423527113prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harness_app_overview
+  pipeline:
+    identifier: Build_Ajinkya_rust_EFWithLinq_1717423527113
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
