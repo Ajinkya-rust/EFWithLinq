@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ajinkya_rust_EFWithLinq_1717423527113-push-trigger-input-set
+  identifier: Build_Ajinkya_rust_EFWithLinq_1717423527113pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harness_app_overview
+  pipeline:
+    identifier: Build_Ajinkya_rust_EFWithLinq_1717423527113
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
